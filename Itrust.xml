@@ -1,0 +1,20 @@
+<test id="addAllergyWithFuturePrescription">
+  <role>HCP</role>
+  <dateAdded>02/08/2012</dateAdded>
+  <usecase>10</usecase>
+  <description>
+  	<precondition>LHCP 9000000000 and Patient 1 are registered users of the iTrust system.</precondition>
+	<step>	HCP Kelly Doctor clicks on “Document Office Visit”. </step>
+	<step>	HCP selects patient Random Person (MID 1). </step>
+	<step>	HCP clicks “Yes, Document Office Visit. </step>”
+	<step>	Under “Office Visit”, HCP enters the date “02/02/2012” and clicks “Create”. </step>
+	<step>	Under “Prescriptions”, HCP Kelly Doctor enters “664662530 – Penicillin”, 50 mg, from “01/01/2014” to “02/02/2014” with instructions “Take twice a week". </step>
+	<step>	HCP clicks “Add Prescription”. </step>
+	<step>	Under “Patient Info”, HCP clicks “PHR Information”. </step>
+	<step>	Under “Allergies” HCP selects “664662530 – Penicillin” and clicks “Add Allergy”. </step>
+  </description>
+  <expectedResults>
+  <eResult>HCP Kelly Doctor is presented with the following information: “Allergy Added” and Medication “664662530 – Penicillin” is currently prescribed to Random Person. </eResult>
+  </expectedResults>
+  <actualResults> </actualResults>
+ </test>

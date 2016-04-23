@@ -1,3 +1,5 @@
+/* Recreation of "top" command */
+
 //Get maximum number of processes
 	if((fp = fopen("/proc/sys/kernel/pid_max","r")) == NULL){
 		printf("Cannot open file!\n");

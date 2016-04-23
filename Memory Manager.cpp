@@ -1,3 +1,4 @@
+  /* Snippet of custom memory manager */
   void* allocate(int aSize)
   { 
   

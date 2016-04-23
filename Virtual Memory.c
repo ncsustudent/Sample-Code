@@ -1,3 +1,5 @@
+/* Recreation of OS virtual memory */
+
 /* Table storing the set of memory-resident pages.  Multiple arrays storing the page in
  * each memory frame, which process owns that page and when that page was last accessed
  * by the process. 

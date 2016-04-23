@@ -1,4 +1,5 @@
-/* Alien Shot-Asteroid Collision  */
+/* Asteroids OpenGL clone */
+/* Alien Bullet Colleision with Asteroid */
 if(!alienshots.empty() && !asteroidCollide){
 	boost::ptr_vector<Bullet>::iterator a = alienshots.begin();
 	while(a != alienshots.end()){

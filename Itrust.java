@@ -1,3 +1,4 @@
+/* Use case UI test for ITrust medical database */
 public void testRequestAppt() throws Exception{
 		//Login as Random person
 		WebConversation wc = login(randomS, password);

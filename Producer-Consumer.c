@@ -1,3 +1,5 @@
+/* Snippet from producer/consumer assignment */
+
 /** Place the given item in an available slot in the bounded buffer between the
     adjChooser and the nounChooser.  Block until a slot is available. */
 void enqueueAdj( Item *it ) {
